@@ -1,5 +1,5 @@
 from flask import Flask, make_response, request, render_template
-from .utils import auth_required
+from utils import auth_required
 
 def create_app():
     app = Flask(__name__)
